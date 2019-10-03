@@ -16,6 +16,7 @@ mix.setPublicPath('public');
 mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
 
-mix.copy('resources/images/', 'public/images/');
+mix.copy('resources/images/', 'public/images/')
+    .copy('node_modules/feather-icons/dist/feather.js', 'public/js');
 
 mix.version();
