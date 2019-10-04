@@ -6,6 +6,10 @@
 
 require('./bootstrap');
 
+//Feather icons
+feather = require('feather-icons');
+feather.replace()
+
 window.Vue = require('vue');
 
 /**
